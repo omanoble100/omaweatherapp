@@ -1,5 +1,5 @@
-const btn = document.getElementById('submit');
-       
+const myBtn = document.getElementById('click');
+    
         
         const getWeatherCondition = () => {
             
@@ -22,4 +22,4 @@ const btn = document.getElementById('submit');
             })
         }
         
-        btn.onclick = () => getWeatherCondition()
+        
