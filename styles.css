@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    margin: 25% auto;
+    margin: 5% auto;
     /* display: block; */
     text-align: center; 
     color: white;
@@ -69,5 +69,11 @@ button {
     width: 150px;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 
+@media screen and(min-width:750) {
+    .container {
+        margin: 25% auto;
+    }
+}
