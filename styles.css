@@ -72,7 +72,7 @@ button {
     cursor: pointer;
 }
 
-@media screen and(min-width:750) {
+@media screen and(min-width:750px) {
     .container {
         margin: 25% auto;
     }

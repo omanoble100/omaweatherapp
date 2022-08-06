@@ -17,7 +17,7 @@ const myBtn = document.getElementById('click');
                 const imgView = imageUrl + json.weather[0].icon +'.png';
                 const value = json.main.temp;
                 const degree = Math.floor(value)
-                imgOutput.innerHTML = `<img src='${imgView}'> <h1>${degree}°</h1>`;
+                imgOutput.innerHTML = `<img src='${imgView}'> <h1>${degree}°</h1> <img src='${imgView}'> `;
                 weatherName.innerText = `${userInput}: ${json.weather[0].main}`;
             })
         }
