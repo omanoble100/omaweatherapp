@@ -7,26 +7,28 @@
 }
 
 body {
-    background: rgb(68, 7, 77);
-    /* background: rgba(68, 7, 77, 0.582); */
     display: flex;
     align-items: center;
     justify-content: center;
     background-repeat:no-repeat ;
     background-size: cover;
+    background-image: url('img.jpg');
     
 }
 
 .wrapper {
-    background: rgba(255, 255, 255, 0.644);
-    /* background: rgb(162, 121, 163); */
-    width: 100%;
+  
+    background: rgba(255, 255, 255, 0.219);
+    /* width: 40%; */
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 150px;
     padding: 0 auto;
     border-radius: 5px;
+    /* opacity: 0.8; */
+    border: 2px solid white;
+    box-shadow: 1px 1px 15px 10px #040307;
 }
 
 .container {
@@ -40,7 +42,7 @@ body {
 }
 
 .container h1 {
-    color: rgb(50, 2, 54);
+    color: white;
 }
 
 #display-weather{
@@ -58,9 +60,9 @@ body {
 
 
 #display-weather img {
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    /* margin-left: 5px; */
 }
 
 #fill {
@@ -98,11 +100,11 @@ h3 {
 
 button {
     padding: 10px;
-    background-color:rgb(50, 2, 54) ;
+    background-color:rgb(43, 16, 141) ;
     border-radius: 5px;
     color: white;
     font-weight: 400;
-    width: 150px;
+    width: 100px;
     border: none;
     margin: 10px;
     cursor: pointer;
@@ -111,7 +113,7 @@ button {
 @media screen and (min-width:750px){
    
     .wrapper {
-        width: 45%;
+        width: 55%;
     }
 
     #fill {
