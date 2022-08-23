@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-repeat:no-repeat ;
+    background-repeat: inherit ;
     background-size: cover;
     background-image: url('img.jpg');
     
@@ -118,5 +118,9 @@ button {
 
     #fill {
         flex-direction: row;
+    }
+    body {
+        /* background-size: cover; */
+        height: 70vh;
     }
 }
